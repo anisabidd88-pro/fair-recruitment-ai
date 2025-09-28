@@ -1,0 +1,42 @@
+{
+  "logistic_baseline": {
+    "metrics": {
+      "accuracy": 0.685,
+      "precision": 0.6861435726210351,
+      "recall": 0.9975728155339806,
+      "f1": 0.8130563798219584
+    },
+    "disparate_impact": 0.996875,
+    "eod": -0.004524886877828038
+  },
+  "rf_baseline": {
+    "metrics": {
+      "accuracy": 0.62,
+      "precision": 0.6818181818181818,
+      "recall": 0.837378640776699,
+      "f1": 0.7516339869281046
+    },
+    "disparate_impact": 0.9931434599156118,
+    "eod": 0.02868920423586263
+  },
+  "logistic_reweighing": {
+    "metrics": {
+      "accuracy": 0.5433333333333333,
+      "precision": 0.715625,
+      "recall": 0.5558252427184466,
+      "f1": 0.6256830601092896
+    },
+    "disparate_impact": 0.9671052631578948,
+    "eod": 0.0015872639833218738
+  },
+  "rf_oversample": {
+    "metrics": {
+      "accuracy": 0.93,
+      "precision": 0.9383886255924171,
+      "recall": 0.9611650485436893,
+      "f1": 0.9496402877697842
+    },
+    "disparate_impact": 0.9805276381909548,
+    "eod": -0.004074767240766608
+  }
+}

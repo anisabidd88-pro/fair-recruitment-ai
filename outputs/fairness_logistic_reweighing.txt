@@ -1,0 +1,1 @@
+Disparate Impact (gender): 0.9671\nEqual Opportunity Difference (gender): 0.0016\n
